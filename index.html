@@ -8,6 +8,7 @@
     </head>
 <body>
        <div id="head">
+       <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
 	<br><h1>Fix My Credit Now</h1>
         <a href="#Home">Home</a> | <a href="#About">About</a>  | <a href="#works">How It Works</a> | <a href="#QA">Q&A</a> | <a href="#education">Education</a> | <a href="#price">Price</a> | <a href="#contact">Contact Us</a> <br><br></div>
        <div id="container">
@@ -53,12 +54,41 @@
 		   <p>Because cats are wonderful!</p><hr><br>
              <h3>How long does it take to see results?</h3>
 		   <p>Cats are wonderful and efficient!</p><hr><br><br></div>
+      <div id="videos"><br>
        <h2 id="education">Education</h2>
-       <div id="videos"><iframe width="560" height="315" src="https://www.youtube.com/embed/rNSnfXl1ZjU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+       <center><iframe width="560" height="315" src="https://www.youtube.com/embed/rNSnfXl1ZjU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/rNSnfXl1ZjU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                     <iframe width="560" height="315" src="https://www.youtube.com/embed/rNSnfXl1ZjU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></div>
+<div id="prices">
        <h2 id="price">Our Pricing</h2>
-	<div id="pricing"><h2>Credit Analysis</h2><h1>$149</h1><ul><li>dogs</li><li>cats</li><li>snakes</li></ul></div>
+	<div id="pricing"><h2>Credit Analysis</h2><h1>$149</h1><ul><li>Dogs</li><li>Cats</li><li>Snakes</li></ul></div>
+		<div id="pricing"><h2>Monthly Service</h2><h1>$99.99</h1><ul><li>Dogs</li><li>Cats</li><li>Snakes</li></ul></div><br></div>
+<div id="contactus"><br>
 	<h2 id="contact">Contact Us</h2>
-	<div id="contactus"><h3>Email: cats@cats.com</h3></div>
+	<p>Our team is ready to assist you in your every credit and financial need. We walk our clients through the entire process either in our office or over the phone. Give us a call today, or simply fill out the form for further details. Our site includes helpful tips and information to further aide in providing quality services to you.</p>
+	<h3>Email: cats@cats.com</h3>
+	<h3>Phone: (800)-000-0000</h3>
+	</div>
 </body>
+       <script>
+	mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
         <footer>© 2020 Marshell Williams</footer>
 </html>
