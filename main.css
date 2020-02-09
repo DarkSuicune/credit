@@ -29,6 +29,7 @@ a {
 a:hover{
 	text-decoration:underline;
 }
+
 #container{
 	background-image:url(images/puppy.jpg);
 	background-size:cover;
@@ -166,5 +167,113 @@ hr{
 	width:500px;
 	text-align:center;
 	margin:auto;
+	transition:0.5s;
+}
+#videos h2{
+	color:black;
+	text-shadow:none;
+	font-weight:bold;
+	font-size:30px;
+	text-align:center;	
+}
+iframe {
+	width:30%;
+	height:30%;
+	padding:12px;
+}
+#videos{
+	background-color:#ebebeb;
+	padding-bottom:120px;
+}
+#pricing{
+	background-color:lightgrey;
+	width:30%;
+	text-align:center;
+	padding:12px 10px;
+	border:1px solid grey;
+	float:left;
+	margin-left:12%;
+}
+#pricing h1{
+	background-color:#edb12b;
+	max-width:70%;
+	margin:auto;
+	color:black;
+	font-style:italic;
+	font-family:sans-serif;
+	text-shadow:none;
+}
+ul{
+	list-style-type:none;
+}
+li {
+	color:#3e3e3e;
+	line-height:30px;
+	text-align:center;
+	margin-left:-40px;
+}
+#prices h2 {
+	color:black;
+	text-align:center;
+	text-shadow:none;
+	font-size:30px;
+	font-weight:bold;
+}
+#pricing h2{
+	font-size:25px;
+}
+#prices{
+	padding-bottom:30%;
+}
+#contactus{
+	background-color:#e2e2e2;
+	padding-bottom:5%;
+}
+#contactus h2{
+	color:black;
+	font-size:25px;
+	font-weight:bold;
+	text-shadow:none;
+	text-align:center;
+}
+#contactus h3{
+	color:black;
+	font-size:20px;
+	font-weight:normal;
+	text-shadow:none;
+	text-align:center;
+}
+#contactus p{
+	width:30%;
+	text-align:center;
+	margin:auto;
+}
+footer{
+	background-color:black;
+	padding:3%;
+	text-align:center;
+	color:white;
+}
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: 3px solid #edb12b; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: transparent;
+  color: #edb12b; /* Text color */
+	font-weight:bold;
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 12px 15px; /* Some padding */
+  font-size: 18px; /* Increase font size */
+	transition:0.5s;
+}
+
+#myBtn:hover {
+  background-color: #edb12b; 
+	border-color:#edb12b;
+	color:black;
 	transition:0.5s;
 }
