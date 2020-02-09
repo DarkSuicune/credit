@@ -30,7 +30,7 @@ a:hover{
 	text-decoration:underline;
 }
 #container{
-	background-image:url(images/puppy.jpg);
+	background-image:url(puppy.jpg);
 	background-size:cover;
 	padding:100px 20px;
 }
